@@ -22,7 +22,7 @@
 				@include('inc.search')
 				<div class="container" style="margin-top:15px;">
 					<span style="color:#fff;font-size:28px;font-weight:bold;">Đăng nhập để nhận thêm ưu đãi 15%<br/>khi đặt phòng khách sạn</span><br/>
-					<a style="padding:10px 25px;margin-top:25px;" href="https://hoabinhbooking.com/partnership" class="btn btn-primary">Đăng nhập / Đăng ký</a>
+					<a style="padding:10px 25px;margin-top:25px;" href="https://hoabinhbooking.test/partnership" class="btn btn-primary">Đăng nhập / Đăng ký</a>
 				</div>
 			</div>
 		</div>
@@ -243,12 +243,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">
-							<img alt="public/uploads/img/21952662399.jpg" src="/public/uploads/img/21952662399.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">
+							<img alt="uploads/img/21952662399.jpg" src="/uploads/img/21952662399.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -272,12 +272,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">
-							<img alt="public/uploads/img/177238220.jpg" src="/public/uploads/img/177238220.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">
+							<img alt="uploads/img/177238220.jpg" src="/uploads/img/177238220.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -301,12 +301,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">
-							<img alt="public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">
+							<img alt="uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -330,12 +330,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">
-							<img alt="public/uploads/img/42328_9387DUY8WP_flc75.jpg" src="/public/uploads/img/42328_9387DUY8WP_flc75.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">
+							<img alt="uploads/img/42328_9387DUY8WP_flc75.jpg" src="/uploads/img/42328_9387DUY8WP_flc75.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -360,12 +360,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">
-								<img alt="public/uploads/img/21952662399.jpg" src="/public/uploads/img/21952662399.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">
+								<img alt="uploads/img/21952662399.jpg" src="/uploads/img/21952662399.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -389,12 +389,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">
-								<img alt="public/uploads/img/177238220.jpg" src="/public/uploads/img/177238220.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">
+								<img alt="uploads/img/177238220.jpg" src="/uploads/img/177238220.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -418,12 +418,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">
-								<img alt="public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">
+								<img alt="uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -447,12 +447,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">
-								<img alt="public/uploads/img/42328_9387DUY8WP_flc75.jpg" src="/public/uploads/img/42328_9387DUY8WP_flc75.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">
+								<img alt="uploads/img/42328_9387DUY8WP_flc75.jpg" src="/uploads/img/42328_9387DUY8WP_flc75.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -488,12 +488,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">
-							<img alt="public/uploads/img/21952662399.jpg" src="/public/uploads/img/21952662399.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">
+							<img alt="uploads/img/21952662399.jpg" src="/uploads/img/21952662399.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -517,12 +517,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">
-							<img alt="public/uploads/img/177238220.jpg" src="/public/uploads/img/177238220.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">
+							<img alt="uploads/img/177238220.jpg" src="/uploads/img/177238220.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -546,12 +546,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">
-							<img alt="public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">
+							<img alt="uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -575,12 +575,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="f__b__l">
 						<div class="f__b__l_1_1">
-							<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">
-							<img alt="public/uploads/img/42328_9387DUY8WP_flc75.jpg" src="/public/uploads/img/42328_9387DUY8WP_flc75.jpg">
+							<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">
+							<img alt="uploads/img/42328_9387DUY8WP_flc75.jpg" src="/uploads/img/42328_9387DUY8WP_flc75.jpg">
 							</a>
 						</div>
 						<div class="f__b__l_1_2">
-							<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
+							<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
 							<div class="f__b__l_1_3">
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 								<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -605,12 +605,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">
-								<img alt="public/uploads/img/21952662399.jpg" src="/public/uploads/img/21952662399.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">
+								<img alt="uploads/img/21952662399.jpg" src="/uploads/img/21952662399.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-diamond-legend.html">Khách Sạn Diamond Legend</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -634,12 +634,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">
-								<img alt="public/uploads/img/177238220.jpg" src="/public/uploads/img/177238220.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">
+								<img alt="uploads/img/177238220.jpg" src="/uploads/img/177238220.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-caravelle-sai-gon.html">Khách Sạn Caravelle Sài Gòn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -663,12 +663,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">
-								<img alt="public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/public/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">
+								<img alt="uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg" src="/uploads/img/da91511235544_khach_san_flc_grand_sam_son26.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-grand-sam-son.html">Khách Sạn FLC Grand Sầm Sơn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
@@ -692,12 +692,12 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="f__b__l">
 							<div class="f__b__l_1_1">
-								<a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">
-								<img alt="public/uploads/img/42328_9387DUY8WP_flc75.jpg" src="/public/uploads/img/42328_9387DUY8WP_flc75.jpg">
+								<a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">
+								<img alt="uploads/img/42328_9387DUY8WP_flc75.jpg" src="/uploads/img/42328_9387DUY8WP_flc75.jpg">
 								</a>
 							</div>
 							<div class="f__b__l_1_2">
-								<h3><a href="https://hoabinhbooking.com/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
+								<h3><a href="https://hoabinhbooking.test/khach-san/khach-san-flc-luxury-sam-son.html">Khách Sạn FLC Luxury Sầm Sơn</a></h3>
 								<div class="f__b__l_1_3">
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>
 									<i style="color:#FFBC39;" class="fa fa-star" aria-hidden="true"></i>

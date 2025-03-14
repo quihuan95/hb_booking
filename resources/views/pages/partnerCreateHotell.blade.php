@@ -2,14 +2,14 @@
 <html lang="vi">
    <head>
 	  <meta charset="utf-8"/>
-	  <link rel="icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <meta name="viewport" content="width=device-width,initial-scale=1"/>
 	  <meta name="theme-color" content="#4FC3F7"/>
 	  <meta name="description" content="Đăng ký miễn phí khách sạn của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
 	  <meta property="og:title" content="Hòa Bình Booking - Hệ thống quản lý khách sạn trực tuyến"/>
 	  <meta property="og:image" content="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_right_banner.jpg"/>
 	  <meta property="og:description" content="Đăng ký miễn phí khách sạn của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
-	  <link rel="apple-touch-icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="apple-touch-icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <title>Tạo mới khách sạn</title>
 	  <link href="{{asset('libs/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
 	  <link href="{{asset('libs/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
@@ -22,7 +22,7 @@
 <link href="{{ asset('dist/admin/css/app.css') }}" rel="stylesheet">
 <script>
 		var bookingCore  = {
-			url:'https://hoabinhbooking.com/',
+			url:'https://hoabinhbooking.test/',
 			map_provider:'gmap',
 			map_gmap_key:'',
 			csrf:'9gl5oSvUixuYLAFcVAkKx6ZwwpeGeBXYvxxotQVl'
@@ -87,7 +87,7 @@
 			}
 		};
 	</script>
-<script src="https://hoabinhbooking.com/libs/tinymce/js/tinymce/tinymce.min.js"></script>
+<script src="https://hoabinhbooking.test/libs/tinymce/js/tinymce/tinymce.min.js"></script>
 	<style>
 		body{ margin:0px;padding:0px;font-family:arial;background:rgb(245, 245, 245); }
 		.red{ color:red; }
@@ -117,7 +117,7 @@
    <body>
 	 <div class="wapper">
 		<div class="header">
-		<a href="/"><img alt="logo hoabinh booking" src="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/></a>
+		<a href="/"><img alt="logo hoabinh booking" src="{{ asset('frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/></a>
 			<div class="__right_header">
 				<div class="__bell">
 				<i style="font-size: 20px;margin: 5px 0px 0 0;color: #fff;" class="fa fa-bell" aria-hidden="true"></i>

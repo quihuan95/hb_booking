@@ -61,7 +61,7 @@
 			<div class="col-md-8">
 				<div class="filter-div d-flex justify-content-between ">
 					<div class="col-left">
-													<form method="post" action="https://hoabinhbooking.com/admin/module/location/editBulk" class="filter-form filter-form-left d-flex justify-content-start">
+													<form method="post" action="https://hoabinhbooking.test/admin/module/location/editBulk" class="filter-form filter-form-left d-flex justify-content-start">
 								<input type="hidden" name="_token" value="YArMcQJcKNS3G0jFna6yjd08I06Z1HQ2z8P5yyjo">
 
 								<select name="action" class="form-control">
@@ -76,7 +76,7 @@
 							</form>
 											</div>
 					<div class="col-left">
-						<form method="get" action="https://hoabinhbooking.com/admin/module/location" class="filter-form filter-form-right d-flex justify-content-end" role="search">
+						<form method="get" action="https://hoabinhbooking.test/admin/module/location" class="filter-form filter-form-right d-flex justify-content-end" role="search">
 							<input type="text" name="s" value="" class="form-control" placeholder="Search by name">
 							<button class="btn-info btn btn-icon btn_search" id="search-submit" type="submit">Tìm kiếm</button>
 						</form>

@@ -78,7 +78,7 @@
 			 <div class="panel">
 				<div class="panel-title d-flex justify-content-between">
 				   <strong>Recent Bookings</strong>
-				   <a href="https://hoabinhbooking.com/admin/module/report/booking" class="btn-link">Xem thêm
+				   <a href="https://hoabinhbooking.test/admin/module/report/booking" class="btn-link">Xem thêm
 				   <i class="icon ion-ios-arrow-forward"></i></a>
 				</div>
 				<div class="panel-body">
@@ -97,7 +97,7 @@
 							<tr>
 							   <td>#5</td>
 							   <td>
-								  <a href="https://hoabinhbooking.com/vi/hotel/alba-wellness-valley-by-fusion" target="_blank">Alba Wellness Valley By Fusion</a>
+								  <a href="https://hoabinhbooking.test/vi/hotel/alba-wellness-valley-by-fusion" target="_blank">Alba Wellness Valley By Fusion</a>
 							   </td>
 							   <td>0</td>
 							   <td>

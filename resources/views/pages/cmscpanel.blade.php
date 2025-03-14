@@ -2,14 +2,14 @@
 <html lang="vi">
    <head>
 	  <meta charset="utf-8"/>
-	  <link rel="icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <meta name="viewport" content="width=device-width,initial-scale=1"/>
 	  <meta name="theme-color" content="#4FC3F7"/>
 	  <meta name="description" content="Đăng ký miễn phí chỗ nghỉ của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
 	  <meta property="og:title" content="Hòa Bình Booking - Hệ thống quản lý khách sạn trực tuyến"/>
 	  <meta property="og:image" content="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_right_banner.jpg"/>
 	  <meta property="og:description" content="Đăng ký miễn phí chỗ nghỉ của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
-	  <link rel="apple-touch-icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="apple-touch-icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <title>Tổng quan</title>
 	  <link href="{{asset('libs/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
 		<link href="{{asset('libs/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
@@ -40,7 +40,7 @@
 		._wap11{ float:left;width:50%;text-align:right; }
 		._wap12{ margin-top: 20px;padding-right: 50px;padding-left: 50px;background-color: #F29F05;border-color: #F29F05; }
 		._wap55{ position: relative;float: left;margin: 0 10px; }
-		._wap56{ position: absolute;float: left;width: 100%;background: url(https://hoabinhbooking.com/public/icon/bgo.png) repeat top left;bottom: 0px;text-align: left;padding: 5px;overflow: hidden;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;color:#fff; }
+		._wap56{ position: absolute;float: left;width: 100%;background: url(https://hoabinhbooking.test/icon/bgo.png) repeat top left;bottom: 0px;text-align: left;padding: 5px;overflow: hidden;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;color:#fff; }
 		._wap57{ position: absolute;float: left;top: 5px;right: 5px; }
 		._wap57 a{ color: #fff;background: red;padding: 3px 8px;border-radius: 5px;display: block; }
 
@@ -49,7 +49,7 @@
    <body>
 	 <div class="wapper">
 		<div class="header">
-			<a href="/"><img alt="logo hoabinh booking" src="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/></a>
+			<a href="/"><img alt="logo hoabinh booking" src="{{ asset('frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/></a>
 			<div class="__right_header">
 				<div class="__bell">
 				<i style="font-size: 20px;margin: 5px 0px 0 0;color: #fff;" class="fa fa-bell" aria-hidden="true"></i>

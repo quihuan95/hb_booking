@@ -2,14 +2,14 @@
 <html lang="vi">
    <head>
 	  <meta charset="utf-8"/>
-	  <link rel="icon" href="{{asset('public/frontend/css/images/logohoabinhbooking.png')}}"/>
+	  <link rel="icon" href="{{asset('frontend/css/images/logohoabinhbooking.png')}}"/>
 	  <meta name="viewport" content="width=device-width,initial-scale=1"/>
 	  <meta name="theme-color" content="#4FC3F7"/>
 	  <meta name="description" content="Đăng ký miễn phí khách sạn của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
 	  <meta property="og:title" content="Hòa Bình Booking - Hệ thống quản lý khách sạn trực tuyến"/>
 	  <meta property="og:image" content="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_right_banner.jpg"/>
 	  <meta property="og:description" content="Đăng ký miễn phí khách sạn của bạn trên Hòa Bình Booking! Tiếp cận được hơn 25 triệu khách hàng tiềm năng"/>
-	  <link rel="apple-touch-icon" href="{{asset('public/frontend/css/images/logohoabinhbooking.png')}}"/>
+	  <link rel="apple-touch-icon" href="{{asset('frontend/css/images/logohoabinhbooking.png')}}"/>
 	  <title>Chỉnh/sửa thông tin khách sạn</title>
 	  <link href="{{asset('libs/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
 	  <link href="{{asset('libs/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
@@ -22,7 +22,7 @@
 		<link href="{{asset('dist/admin/css/app.css')}}" rel="stylesheet">
 	<script>
 		var bookingCore  = {
-			url:'https://hoabinhbooking.com/',
+			url:'https://hoabinhbooking.test/',
 			map_provider:'gmap',
 			map_gmap_key:'',
 			csrf:'9gl5oSvUixuYLAFcVAkKx6ZwwpeGeBXYvxxotQVl'
@@ -150,8 +150,8 @@
 					?>
 	 <div class="wapper">
 		<div class="header">
-		<a href="https://hoabinhbooking.com/">
-			<img alt="logo hoabinh booking" src="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/>
+		<a href="https://hoabinhbooking.test/">
+			<img alt="logo hoabinh booking" src="{{ asset('frontend/css/images/logohoabinhbooking.png') }}" style="height:90%;padding:3px;background:#fff;border-radius:3px;margin:3px 0px 0px 55px;float:left;"/>
 		</a>
 		<div class="__right_header">
 				<div class="__bell">
@@ -212,7 +212,7 @@
 				var fd = new FormData($('#form11')[0]);    
 
 				$.ajax({
-				url: 'https://hoabinhbooking.com/vi/ajaxupload/action',
+				url: 'https://hoabinhbooking.test/vi/ajaxupload/action',
 				data: fd,
 				processData: false,
 				contentType: false,
@@ -693,7 +693,7 @@ Cho phép công cụ tìm kiếm hiển thị dịch vụ này trong kết quả
 <div class="form-group-image">
 <div class="text-center">
 
-<form action="https://hoabinhbooking.com/vi/ajaxupload/action" method="post" id="form13" name="form13"  enctype="multipart/form-data">
+<form action="https://hoabinhbooking.test/vi/ajaxupload/action" method="post" id="form13" name="form13"  enctype="multipart/form-data">
 {{ csrf_field() }}
 <input type="hidden" value="{{ $data->id }}" id="id_hotel" name="id_hotel">
 <input type="file" onchange="fnSendRequest3()" id="file" name="file" value="" style="display:none;"/>
@@ -785,7 +785,7 @@ Cho phép công cụ tìm kiếm hiển thị dịch vụ này trong kết quả
 <button type="button" name="btnCreateRoom" id="btnCreateRoom" class="btn btn-success" onclick="fnCreateRoom()">
 	   <i class="fa fa-plus-circle" aria-hidden="true"></i> Tạo phòng
 	   </button>
-<!--<a href="https://hoabinhbooking.com/admin/module/hotel/297/availability" class="btn btn-warning btn-xs"><i class="fa fa-plus-circle" aria-hidden="true"></i> Thêm mới phòng ở</a>-->
+<!--<a href="https://hoabinhbooking.test/admin/module/hotel/297/availability" class="btn btn-warning btn-xs"><i class="fa fa-plus-circle" aria-hidden="true"></i> Thêm mới phòng ở</a>-->
 </div>
 </div>
 
@@ -936,7 +936,7 @@ Cho phép công cụ tìm kiếm hiển thị dịch vụ này trong kết quả
 </div>
 
 <!--<div class="col-md-4">
-<form class="needs-validation" action="https://hoabinhbooking.com/vi/partnership/create-room" method="post" enctype="multipart/form-data">
+<form class="needs-validation" action="https://hoabinhbooking.test/vi/partnership/create-room" method="post" enctype="multipart/form-data">
 {{ csrf_field() }}
 <input type="hidden" id="hdhotelroom" name="hdhotelroom" value="{{ $data->id }}"/>
 <div class="panel">
@@ -1310,9 +1310,9 @@ Cho phép công cụ tìm kiếm hiển thị dịch vụ này trong kết quả
 		<h2>Lịch</h2>
 		<div class="row">
 		<div class="col-md-12">
-		<link href="https://hoabinhbooking.com/public/libs/calendar/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-		<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
-		<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
+		<link href="https://hoabinhbooking.test/libs/calendar/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
+		<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
 
 		
 		
@@ -1406,7 +1406,7 @@ Cho phép công cụ tìm kiếm hiển thị dịch vụ này trong kết quả
 					var fk_list_id=$('input[name="fk_list_id"]').val();
 					if(val_id!=""){
 						$.ajax({
-							url:"https://hoabinhbooking.com/vi/cmscpanel/hotel/room/load",
+							url:"https://hoabinhbooking.test/vi/cmscpanel/hotel/room/load",
 							method:"POST",
 							data:{idhotel:val_id, fk_list_id:fk_list_id, _token:_token},
 							success:function(data){
@@ -2086,7 +2086,7 @@ function fnSaveRoom(){
    function fnRoomChange(){
 	   var _HotelID=$('#hdhotelroomCalendar').val();
 	   var _Fk_list_id=$('#slLich').val();
-	   location.href = 'https://hoabinhbooking.com/cmscpanel/editHotel/'+_HotelID+'?tab=5&room_id='+_Fk_list_id;
+	   location.href = 'https://hoabinhbooking.test/cmscpanel/editHotel/'+_HotelID+'?tab=5&room_id='+_Fk_list_id;
    }
 
 </script>
@@ -2113,10 +2113,10 @@ function fnSaveRoom(){
 </div>
 
 <!--<div class="col-md-6 col-sm-12">
-Từ: <img alt="lịch" src="https://hoabinhbooking.com/public/icon/icons-calendar.jpg" /> <span class="lich_tu"></span>
+Từ: <img alt="lịch" src="https://hoabinhbooking.test/icon/icons-calendar.jpg" /> <span class="lich_tu"></span>
 </div>
 <div class="col-md-6 col-sm-12">
-Đến và bao gồm: <img alt="lịch" src="https://hoabinhbooking.com/public/icon/icons-calendar.jpg" /> <span class="lich_den"></span>
+Đến và bao gồm: <img alt="lịch" src="https://hoabinhbooking.test/icon/icons-calendar.jpg" /> <span class="lich_den"></span>
 </div>-->
 </div>
 </div>
@@ -2238,7 +2238,7 @@ VNĐ
 	<script src="{{ asset('libs/bootbox/bootbox.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/jquery-1.7.1.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/slug.js') }}"></script>
-	<script src="{{ asset('public/libs/calendar/js/frontend-t-datepicker.min.js') }}"></script>
+	<script src="{{ asset('libs/calendar/js/frontend-t-datepicker.min.js') }}"></script>
 	<script>
 	$(document).ready(function(){
 		// Call global the function

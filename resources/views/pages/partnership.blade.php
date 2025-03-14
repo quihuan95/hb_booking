@@ -41,7 +41,7 @@
 .wap_dk_tk_moi .bookcore-form{ width:100%; }
 .wap_dk_tk_moi .color-white{ color:white; }
 .login-header{ position: relative;width:100%;height:auto; }
-.login-head{ background: url(https://hoabinhbooking.com/public/images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
+.login-head{ background: url(https://hoabinhbooking.test//images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
 
 </style>
 <div class="wap_dk_tk_moi">
@@ -300,7 +300,7 @@ Quý vị sẽ được biết cách thức hoạt động của trang chúng t�
 <li>
 <div class="boxbenefit last">
 <div class="benefitimg">
-<img src="https://hoabinhbooking.com/public/icon/sale.png">
+<img src="https://hoabinhbooking.test/icon/sale.png">
 </div>
 <div class="benefithead">
 <span>Giảm giá đặc biệt</span>

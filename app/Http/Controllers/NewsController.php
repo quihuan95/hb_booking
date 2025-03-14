@@ -18,7 +18,7 @@ class NewsController extends Controller
 		$config=DB::table('config')->where('status','A')->orderBy('id','desc')->first();
 		$title='Tin tức đầu tư';
 		$canonical=url()->current();
-		$og_image='public/frontend/css/images/logomain.png';
+		$og_image='frontend/css/images/logomain.png';
 		$keywords='tin tuc, tin tuc dau tu';
 		$description='Tin tức đầu tư';
 
@@ -29,7 +29,7 @@ class NewsController extends Controller
 		$config=DB::table('config')->where('status','A')->orderBy('id','desc')->first();
 		$title='Tin tức';
 		$canonical=url()->current();
-		$og_image='public/frontend/css/images/logomain.png';
+		$og_image='frontend/css/images/logomain.png';
 		$keywords='';
 		$description='Tin tức';
 		/* Tin tức bên phải */
@@ -127,7 +127,7 @@ class NewsController extends Controller
 		/* Config */
 		$title=$cat->title;
 		$canonical=url()->current();
-		$og_image='public/frontend/css/images/Logo@2x@2x.png';
+		$og_image='frontend/css/images/Logo@2x@2x.png';
 		$keywords='tin tuc, tin noi bo vasel, tin trong nuoc, tin quoc te,'.$cat->title;
 		$description=$cat->title." | Hòa Bình Booking";
 		/* End */
@@ -206,7 +206,7 @@ class NewsController extends Controller
 		$config=DB::table('config')->where('status','A')->orderBy('id','desc')->first();
 		$title=$list_cat_items->title;
 		$canonical=url()->current();
-		$og_image='https://hoabinhairlines.vn/public/frontend/css/images/hoabinh-airlines-logo.png';
+		$og_image='https://hoabinhairlines.vn/frontend/css/images/hoabinh-airlines-logo.png';
 		$keywords='';
 		$description=$list_cat_items->title;
 
@@ -234,7 +234,7 @@ class NewsController extends Controller
 			$get_name_image = $get_image->getClientOriginalName();
 			$name_image = current(explode('.',$get_name_image));
 			$new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-			$get_image->move('public/uploads/news',$new_image);
+			$get_image->move('uploads/news',$new_image);
 			$news->picture= $new_image;
 		}else{
 			$news->picture= '';
@@ -288,7 +288,7 @@ class NewsController extends Controller
 			$get_name_image = $get_image->getClientOriginalName();
 			$name_image = current(explode('.',$get_name_image));
 			$new_image =  $name_image.rand(0,99).'.'.$get_image->getClientOriginalExtension();
-			$get_image->move('public/uploads/news',$new_image);
+			$get_image->move('uploads/news',$new_image);
 			$news->picture= $new_image;
 		}else{
 			$news->picture= $request->picture;

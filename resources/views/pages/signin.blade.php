@@ -5,7 +5,7 @@
 		<div class="blog-breadcrumb hidden-xs">
 			<div class="container">
 				<ul>
-					<li><a href="https://hoabinhbooking.com"> Home</a></li>
+					<li><a href="https://hoabinhbooking.test"> Home</a></li>
 					<li class="active">
 						Đăng nhập
 					</li>
@@ -21,7 +21,7 @@
 </style>
 
 <div class="row">
-	 <form style="width:100%;" id="frmsignin" name="frmsignin" method="post" action="https://hoabinhbooking.com/vi/dang-nhap" enctype="multipart/form-data">
+	 <form style="width:100%;" id="frmsignin" name="frmsignin" method="post" action="https://hoabinhbooking.test/vi/dang-nhap" enctype="multipart/form-data">
 		 <div id="wapperregister" style="margin-top:10px;width:100%;">
 		 		{{ csrf_field() }}
 					

@@ -350,7 +350,7 @@ class HomeController extends Controller
 	
 			$data=array();
 			$data['file_name']=$new_image;
-			$data['file_path']='public/uploads/img/'.$new_image;
+			$data['file_path']='uploads/img/'.$new_image;
 			$data['file_size']='';
 			$data['file_type']='';
 			$data['file_extension']='';
@@ -389,7 +389,7 @@ class HomeController extends Controller
 	
 			$data=array();
 			$data['file_name']=$new_image;
-			$data['file_path']='public/uploads/img/'.$new_image;
+			$data['file_path']='uploads/img/'.$new_image;
 			$data['file_size']='';
 			$data['file_type']='';
 			$data['file_extension']='';
@@ -447,7 +447,7 @@ class HomeController extends Controller
 						$photo->move(public_path('uploads/img'),$new_image);
 						$data=array();
 						$data['file_name']=$new_image;
-						$data['file_path']='public/uploads/img/'.$new_image;
+						$data['file_path']='uploads/img/'.$new_image;
 						$data['file_size']='';
 						$data['file_type']='';
 						$data['file_extension']='';

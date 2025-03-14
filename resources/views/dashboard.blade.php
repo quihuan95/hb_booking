@@ -6,8 +6,8 @@
 	  <!-- CSRF Token -->
 	  <meta name="csrf-token" content="MWWLFDdJhtA3UpiGpJxbCZXUC63fxpiNtX7U6Bl3">
 	  <title>Dashboard - Booking Hotel</title>
-	  <base href="https://hoabinhbooking.com/" />
-	  <link rel="icon" type="image/png" href="https://hoabinhbooking.com/images/favicon.png" />
+	  <base href="https://hoabinhbooking.test/" />
+	  <link rel="icon" type="image/png" href="https://hoabinhbooking.test/images/favicon.png" />
 	  <meta name="robots" content="noindex, nofollow" />
 	  <!-- Fonts -->
 	  <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -46,7 +46,7 @@
 	  <div id="app">
 		 <div class="main-header d-flex">
 			<div class="header-logo flex-shrink-0">
-			   <h3 class="logo-text"><a href="https://hoabinhbooking.com/admin">Booking CMS<span></span></a></h3>
+			   <h3 class="logo-text"><a href="https://hoabinhbooking.test/admin">Booking CMS<span></span></a></h3>
 			</div>
 			<div class="header-widgets d-flex flex-grow-1">
 			   <div class="widgets-left d-flex flex-grow-1 align-items-center">
@@ -54,7 +54,7 @@
 					 <span class="btn-toggle-admin-menu btn btn-sm btn-link"><i class="icon ion-ios-menu"></i></span>
 				  </div>
 				  <div class="header-widget search-widget">
-					 <a href="https://hoabinhbooking.com" class="btn btn-link" target="_blank"><i class="fa fa-eye"></i> Home
+					 <a href="https://hoabinhbooking.test" class="btn btn-link" target="_blank"><i class="fa fa-eye"></i> Home
 					 </a>
 				  </div>
 			   </div>
@@ -71,8 +71,8 @@
 						<i class="fa fa-angle-down"></i>
 					 </div>
 					 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="https://hoabinhbooking.com/admin/module/user/edit/21">Edit Profile</a>
-						<a class="dropdown-item" href="https://hoabinhbooking.com/admin/module/user/password/21">Change Password</a>
+						<a class="dropdown-item" href="https://hoabinhbooking.test/admin/module/user/edit/21">Edit Profile</a>
+						<a class="dropdown-item" href="https://hoabinhbooking.test/admin/module/user/password/21">Change Password</a>
 						<a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="fa fa-sign-out"></i> Logout
 						</a>
 					 </div>

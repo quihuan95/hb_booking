@@ -16,7 +16,7 @@ class News extends Model
         if(count($list_news)>0){
             foreach ($list_news as $key => $value) {
              $re.='<div class="media"><a href="'.$value->slug.'">
-                                        <img class="d-flex mr-3" src="public/uploads/news/'.$value->picture.'" alt="'.$value->title.'">
+                                        <img class="d-flex mr-3" src="uploads/news/'.$value->picture.'" alt="'.$value->title.'">
                                     </a>
 
                                     <div class="media-body">
@@ -71,7 +71,7 @@ class News extends Model
             foreach ($list_news as $key => $value) {
                 if($id=='1'){
                             $re.='<div class="media"><a rel="nofollow" href="'.$value->slug.'">
-                                        <img class="d-flex mr-3" src="public/uploads/news/'.$value->picture.'" alt="'.$value->title.'">
+                                        <img class="d-flex mr-3" src="uploads/news/'.$value->picture.'" alt="'.$value->title.'">
                                     </a>
 
                                     <div class="media-body">
@@ -86,7 +86,7 @@ class News extends Model
                                 </div>';
                 }else{
                     $re.='<div class="media"><a href="'.$value->slug.'">
-                                        <img class="d-flex mr-3" src="public/uploads/news/'.$value->picture.'" alt="'.$value->title.'">
+                                        <img class="d-flex mr-3" src="uploads/news/'.$value->picture.'" alt="'.$value->title.'">
                                     </a>
 
                                     <div class="media-body">

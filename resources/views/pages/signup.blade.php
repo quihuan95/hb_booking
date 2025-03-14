@@ -5,7 +5,7 @@
 		<div class="blog-breadcrumb hidden-xs">
 			<div class="container">
 				<ul>
-					<li><a href="https://hoabinhbooking.com"> Home</a></li>
+					<li><a href="https://hoabinhbooking.test"> Home</a></li>
 					<li class="active">
 						Đăng ký
 					</li>
@@ -38,12 +38,12 @@
 				var val_id="1010";
 				var _token = $('input[name="_token"]').val(); // token để mã hóa dữ liệu
 				$.ajax({
-						url:"https://hoabinhbooking.com/vi/dang-ky",
+						url:"https://hoabinhbooking.test/vi/dang-ky",
 						method:"POST",
 						data:{id:val_id,txtFullname:$('#txtFullname').val(),txtPhone:$('#txtPhone').val(),txtEmail:$('#txtEmail').val(),txtRePassword:$('#txtRePassword').val(), _token:_token},
 						success:function(data){
 							if(data=='InsertSuccefully'){
-								$('#wapperregister').html('<p class="succe">Tạo tài khoản mới thành công</p><p class="undercucce">Vui lòng click vào <a href="https://hoabinhbooking.com/vi/signin">đây</a> để đăng nhập tài khoản</p>');
+								$('#wapperregister').html('<p class="succe">Tạo tài khoản mới thành công</p><p class="undercucce">Vui lòng click vào <a href="https://hoabinhbooking.test/vi/signin">đây</a> để đăng nhập tài khoản</p>');
 							}
 							//alert(data);
 						}

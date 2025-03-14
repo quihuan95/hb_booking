@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Đặt phòng khách sạn - Hòa Bình Booking</title>
-	<base href="https://hoabinhbooking.com/" />
+	<base href="https://hoabinhbooking.test/" />
 	<link rel='shortcut icon' href='https://cdn.hoabinhevents.com/profiles/favicon-1.ico' />
 	<meta property="og:title" content="Đặt phòng ở khách sạn giá rẻ trực tuyến HoaBinh Booking"/>
 	<meta property="og:description" content="Phòng ở khách sạn giá rẻ trực tuyến thương hiệu HoaBinh Booking lấy chất lượng đặt lên hàng đầu sẽ không làm bạn thất vọng."/>
@@ -12,7 +12,7 @@
 	<meta property="og:image:width" content="720" />
 	<meta property="og:image:height" content="480" />
 	<meta property="og:locale" content="vi" />
-	<meta property="og:url" content="https://hoabinhbooking.com">
+	<meta property="og:url" content="https://hoabinhbooking.test">
 	<meta property="og:type" content="Đặt phòng khách sạn - Hòa Bình Booking" />
 	
 	<meta name="subject" content="HoaBinh Booking">
@@ -37,11 +37,11 @@
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
-	<link rel="stylesheet" href="{{ asset('public/frontend/css/style.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}"/>
 	
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<link href="{{ asset('public/libs/calendar/css/t-datepicker.min.css') }}" rel="stylesheet" type="text/css">
-	<link href="{{ asset('public/libs/calendar/css/t-datepicker-blue.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('libs/calendar/css/t-datepicker.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('libs/calendar/css/t-datepicker-blue.css') }}" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		.jss5 { object-fit: none; }
 		.jss5 video { object-fit: cover; }
@@ -204,7 +204,7 @@
 						<div class="ul_right">
 							<ul>
 								<li>
-									<a rel="nofollow" href="{!! route('home.partnership') !!}"><img alt="" src="https://hoabinhbooking.com/public/uploads/handshake.png" style="
+									<a rel="nofollow" href="{!! route('home.partnership') !!}"><img alt="" src="https://hoabinhbooking.test/uploads/handshake.png" style="
 										width: 20px;
 										color: #fff;
 									"> Hợp tác với chúng tôi</a>
@@ -232,8 +232,8 @@
 		
 	</div>
 	<div class="MuiBox-root jss16 jss5">
-		<!--<img alt="" src="{{ asset('public/frontend/css/images/banner_top.jpg') }}" />-->
-		<video width="100%" height="488px" type="video/mp4" autoplay="" muted="" loop=""><source src="public/frontend/css/images/video-hbbooking-119.mp4">Your browser does not support the video tag.</video>
+		<!--<img alt="" src="{{ asset('frontend/css/images/banner_top.jpg') }}" />-->
+		<video width="100%" height="488px" type="video/mp4" autoplay="" muted="" loop=""><source src="frontend/css/images/video-hbbooking-119.mp4">Your browser does not support the video tag.</video>
 	</div>
 	<div class="jsc11">
 		@include('inc.search')
@@ -329,7 +329,7 @@
 		<div class="row">
 		   <div class="col-lg-3 col-md-6">
 			  <div class="destination-item ">
-				 <a href="https://hoabinhbooking.com/k/vung-tau">
+				 <a href="https://hoabinhbooking.test/k/vung-tau">
 					<div class="image" style="background: url(https://thangmuoihotel.vn/wp-content/uploads/2019/08/vung-tau.jpg)">
 					   <div class="effect"></div>
 					   <div class="content">
@@ -342,7 +342,7 @@
 		   </div>
 		   <div class="col-lg-3 col-md-6">
 			  <div class="destination-item ">
-				 <a href="https://hoabinhbooking.com/k/phu-quoc">
+				 <a href="https://hoabinhbooking.test/k/phu-quoc">
 					<div class="image" style="background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Bai-sao-phu-quoc-tuonglamphotos.jpg/1200px-Bai-sao-phu-quoc-tuonglamphotos.jpg)">
 					   <div class="effect"></div>
 					   <div class="content">
@@ -355,7 +355,7 @@
 		   </div>
 		   <div class="col-lg-3 col-md-6">
 			  <div class="destination-item ">
-				 <a href="https://hoabinhbooking.com/k/ho-chi-minh">
+				 <a href="https://hoabinhbooking.test/k/ho-chi-minh">
 					<div class="image" style="background: url(https://cdnimg.vietnamplus.vn/t1200/Uploaded/ngtmbh/2021_10_24/ttxvn_du_lich_tphcm.jpg)">
 					   <div class="effect"></div>
 					   <div class="content">
@@ -368,7 +368,7 @@
 		   </div>
 		   <div class="col-lg-3 col-md-6">
 			  <div class="destination-item ">
-				 <a href="https://hoabinhbooking.com/k/da-lat">
+				 <a href="https://hoabinhbooking.test/k/da-lat">
 					<div class="image" style="background: url(https://antuongxuyenviet.com/wp-content/uploads/2019/11/du-lich-da-lat-1-1.jpg)">
 					   <div class="effect"></div>
 					   <div class="content">
@@ -446,7 +446,7 @@
 
 
 <div class="h35"></div>
-<div class="bravo_footer" style="background: url(https://hoabinhbooking.com/public/images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
+<div class="bravo_footer" style="background: url(https://hoabinhbooking.test//images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
 	<div class="h35"></div>
 		<div class="main-footer">
 		<div class="container">
@@ -480,7 +480,7 @@
 			<p style="margin-top:40px;"><b>Bạn cần trợ giúp? Hãy gọi ngay:</b></p>
 			<p>
 				<a href="tel:0918640988">
-				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.com/public/images/calling.gif">
+				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.test//images/calling.gif">
 				<span style="color: #fff;font-size: 20px;padding-top: 5px;padding-left: 10px;display: block;float: left;">
 					0918 640 988
 				</span>
@@ -509,7 +509,7 @@
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách đổi trả</a></p>
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách bảo mật</a></p>
 			<p>
-			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.com/public/images/congthuong-7841.png">
+			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.test//images/congthuong-7841.png">
 			</p>
 			
 			</div>
@@ -534,7 +534,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://hoabinhbooking.com/public/libs/calendar/js/t-datepicker.min.js"></script>
+<script src="https://hoabinhbooking.test/libs/calendar/js/t-datepicker.min.js"></script>
 
 <script>
  $(document).ready(function(){

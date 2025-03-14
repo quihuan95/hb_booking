@@ -3,7 +3,7 @@
 <div class="main-content">
    <nav class="main-breadcrumb" aria-label="breadcrumb">
 	  <ol class="breadcrumb">
-		 <li class="breadcrumb-item"><a href="https://hoabinhbooking.com/admin"><i class="fa fa-home"></i> Dashboard</a></li>
+		 <li class="breadcrumb-item"><a href="https://hoabinhbooking.test/admin"><i class="fa fa-home"></i> Dashboard</a></li>
 		 <li class="breadcrumb-item ">
 			<a href="{!! route('admin.menu.list') !!}">Menus</a>
 		 </li>

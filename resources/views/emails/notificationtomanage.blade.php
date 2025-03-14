@@ -8,7 +8,7 @@
 </div>
 <div style="float:right;">
 <p style="text-align:right;margin:0px;padding:0px;">
-<img alt="logo hoabinhbooking.com" src="asset('public/frontend/css/images/logohoabinhbooking.png')" style="width:180px;"/>
+<img alt="logo hoabinhbooking.com" src="asset('frontend/css/images/logohoabinhbooking.png')" style="width:180px;"/>
 </p>
 </div>
 <div style="width:100%;height:1px;clear:both;"></div>

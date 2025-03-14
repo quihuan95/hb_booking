@@ -109,7 +109,7 @@
 			}
 		</style>
 		<div class="row">
-			<img style="width:100%;" alt="" src="{{ asset('public/frontend/css/images/danh_gia.png') }}" />
+			<img style="width:100%;" alt="" src="{{ asset('frontend/css/images/danh_gia.png') }}" />
 			<!--<div>
 					<div style="width:100%;height:50px;line-height:50px;font-size:20px;"><b>Đánh giá</b></div>
 				</div>
@@ -207,7 +207,7 @@
 													</div>
 													<div style="text-align:right;display:block;">/ đêm </div>
 													<div>
-														<a class="hbb_1205" href="https://hoabinhbooking.com/lien-he" style="margin: 12px 0px 0px;">Đặt phòng</a>
+														<a class="hbb_1205" href="https://hoabinhbooking.test/lien-he" style="margin: 12px 0px 0px;">Đặt phòng</a>
 													</div>
 												</div>
 											</div>

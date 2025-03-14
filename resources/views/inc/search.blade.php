@@ -73,11 +73,11 @@
 							}
 							if(isset($_GET['t-start'])){
 								$checkin=explode("-", $_GET['t-start']);
-								$strcheckin='<div class="t-check-in"><div class="t-dates t-date-check-in"><img alt="" src="https://hoabinhbooking.com/public/icon/icons-calendar.jpg" style="width:15px;margin-bottom: 3px;"><label class="t-date-info-title"></label><span class="t-day-check-in"> '.$checkin[0].'</span><span class="t-month-check-in"> Tháng '.$checkin[1].' </span><span class="t-year-check-in"> '.$checkin[2].'</span></div><input type="hidden" class="t-input-check-in" value="'.$checkin[0].'-'.$checkin[1].'-'.$checkin[2].'" name="t-start"></div>';
+								$strcheckin='<div class="t-check-in"><div class="t-dates t-date-check-in"><img alt="" src="https://hoabinhbooking.test/icon/icons-calendar.jpg" style="width:15px;margin-bottom: 3px;"><label class="t-date-info-title"></label><span class="t-day-check-in"> '.$checkin[0].'</span><span class="t-month-check-in"> Tháng '.$checkin[1].' </span><span class="t-year-check-in"> '.$checkin[2].'</span></div><input type="hidden" class="t-input-check-in" value="'.$checkin[0].'-'.$checkin[1].'-'.$checkin[2].'" name="t-start"></div>';
 							}
 							if(isset($_GET['t-end'])){
 								$checkout=explode("-", $_GET['t-end']);
-								$strcheckout='<div class="t-check-out"><div class="t-dates t-date-check-out"><img alt="" src="https://hoabinhbooking.com/public/icon/icons-calendar.jpg" style="width:15px;margin-bottom: 3px;"><label class="t-date-info-title"></label><span class="t-day-check-out"> '.$checkin[0].'</span><span class="t-month-check-out"> Tháng '.$checkin[1].' </span><span class="t-year-check-out"> '.$checkin[2].'</span></div><input type="hidden" class="t-input-check-out" value="'.$checkin[0].'-'.$checkin[1].'-'.$checkin[2].'" name="t-end"></div>';
+								$strcheckout='<div class="t-check-out"><div class="t-dates t-date-check-out"><img alt="" src="https://hoabinhbooking.test/icon/icons-calendar.jpg" style="width:15px;margin-bottom: 3px;"><label class="t-date-info-title"></label><span class="t-day-check-out"> '.$checkin[0].'</span><span class="t-month-check-out"> Tháng '.$checkin[1].' </span><span class="t-year-check-out"> '.$checkin[2].'</span></div><input type="hidden" class="t-input-check-out" value="'.$checkin[0].'-'.$checkin[1].'-'.$checkin[2].'" name="t-end"></div>';
 							}
 							?>
 							<input type="text" onclick="fnSearch()" onkeydown="fnSearch()" onkeypress="return KeyPressSearchHome(event);" autocomplete="off" id="kw" name="kw" value="<?php echo $kw; ?>" placeholder="Thành phố, khách sạn, điểm đến" />

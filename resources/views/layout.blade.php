@@ -4,14 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Đặt phòng khách sạn - Hòa Bình Booking</title>
-	<base href="https://hoabinhbooking.com/" />
+	<base href="https://hoabinhbooking.test/" />
 	<link rel='shortcut icon' href='https://cdn.hoabinhevents.com/profiles/favicon-1.ico' />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
-	<link rel="stylesheet" href="public/frontend/css/style.css"/>
+	<link rel="stylesheet" href="frontend/css/style.css"/>
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-	<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
-	<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
+	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
+	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
 		.jss5 { object-fit: none; }
 		.jss5 video { object-fit: cover; }
@@ -176,7 +176,7 @@
 							<!--
 							<ul>
 								<li><a href="/">Trang chủ</a></li>
-								<li><a href="https://hoabinhbooking.com/location/vung-tau">Khách sạn</a></li>
+								<li><a href="https://hoabinhbooking.test/location/vung-tau">Khách sạn</a></li>
 								<li><a href="/">Tours</a></li>
 								<li><a href="/">Cẩm nang</a></li>
 								<li><a href="/">Liên hệ</a></li>
@@ -186,7 +186,7 @@
 						<div class="ul_right">
 							<ul>
 								<li>
-									<a rel="nofollow" href="{!! route('home.partnership') !!}"><img alt="" src="https://hoabinhbooking.com/public/uploads/handshake.png" style="
+									<a rel="nofollow" href="{!! route('home.partnership') !!}"><img alt="" src="https://hoabinhbooking.test/uploads/handshake.png" style="
 										width: 20px;
 										color: #fff;
 									"> Hợp tác với chúng tôi</a>
@@ -221,7 +221,7 @@
 
 
 <div class="h35"></div>
-<div class="bravo_footer" style="background: url(https://hoabinhbooking.com/public/images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
+<div class="bravo_footer" style="background: url(https://hoabinhbooking.test//images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
 	<div class="h35"></div>
 		<div class="main-footer">
 		<div class="container">
@@ -255,7 +255,7 @@
 			<p style="margin-top:40px;"><b>Bạn cần trợ giúp? Hãy gọi ngay:</b></p>
 			<p>
 				<a href="tel:0918640988">
-				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.com/public/images/calling.gif">
+				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.test//images/calling.gif">
 				<span style="color: #fff;font-size: 20px;padding-top: 5px;padding-left: 10px;display: block;float: left;">
 				0918 640 988
 				</span>
@@ -284,7 +284,7 @@
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách đổi trả</a></p>
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách bảo mật</a></p>
 			<p>
-			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.com/public/images/congthuong-7841.png">
+			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.test//images/congthuong-7841.png">
 			</p>
 			
 			</div>
@@ -311,7 +311,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://hoabinhbooking.com/public/libs/calendar/js/t-datepicker.min.js"></script>
+<script src="https://hoabinhbooking.test/libs/calendar/js/t-datepicker.min.js"></script>
 
 <script>
  $(document).ready(function(){

@@ -161,7 +161,7 @@
 						   <div class="item-join">
 								<div class="panel-title title-featured">
 								   <a href="{!! route('tuyen.dung.detail',array($v->slug)) !!}">
-									  <img src="https://hoabinhbooking.com/public/icon/hot-red.png">
+									  <img src="https://hoabinhbooking.test/icon/hot-red.png">
 									  {!! $v->title !!}
 								   </a>
 								</div>

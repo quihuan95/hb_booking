@@ -10,14 +10,14 @@
 <html lang="vi">
    <head>
 	  <meta charset="utf-8"/>
-	  <link rel="icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <meta name="viewport" content="width=device-width,initial-scale=1"/>
 	  <meta name="theme-color" content="#4FC3F7"/>
 	  <meta name="description" content="Đăng nhập"/>
 	  <meta property="og:title" content="Đăng nhập"/>
 	  <meta property="og:image" content="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_right_banner.jpg"/>
 	  <meta property="og:description" content="Đăng nhập"/>
-	  <link rel="apple-touch-icon" href="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+	  <link rel="apple-touch-icon" href="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 	  <title>Đăng nhập</title>
 	  <link href="{{asset('libs/bootstrap/css/bootstrap.css')}}" rel="stylesheet">
 		<link href="{{asset('libs/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
@@ -30,7 +30,7 @@
 		._gb{ margin-top:110px; }
 		.wapregister{ width:770px;height: 460px;box-shadow: 0px 4px 6px rgb(0 0 0 / 10%), 0px 6px 14px rgb(0 0 0 / 20%);margin:0 auto;border-radius:12px; }
 		._gh{ position: relative;border-radius: 12px 0px 0px 12px;width: 270px;padding: 32px;vertical-align: middle;height: 100%;text-align: center;float: left; }
-		._ghvt{ background: #04245d url(https://hoabinhbooking.com/public/uploads/travel-around-the-world.jpg) no-repeat top left;background-size: cover;position: absolute;width:100%;height:100%;top: 0px;left: 0px;border-top-left-radius: 12px;border-bottom-left-radius: 12px; }
+		._ghvt{ background: #04245d url(https://hoabinhbooking.test/uploads/travel-around-the-world.jpg) no-repeat top left;background-size: cover;position: absolute;width:100%;height:100%;top: 0px;left: 0px;border-top-left-radius: 12px;border-bottom-left-radius: 12px; }
 		._ghvttt{ position: absolute;
 			top: 10px;
 			float: left;
@@ -51,7 +51,7 @@
 
 				</div>
 				<div class="_ghvttt">
-					<img class="_gg" alt="" src="{{ asset('public/frontend/css/images/logohoabinhbooking.png') }}"/>
+					<img class="_gg" alt="" src="{{ asset('frontend/css/images/logohoabinhbooking.png') }}"/>
 				</div>
 				
 			</div>

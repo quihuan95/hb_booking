@@ -12,7 +12,7 @@ class Menus extends Model
 	public static function render_menu_admin(){
 		$list_menu='';
 		$currentUrl = url()->current();
-		$link_riderect='https://hoabinhbooking.com/admin/';
+		$link_riderect='https://hoabinhbooking.test/admin/';
 		$menus=DB::table('menus_admin')->where('status','A')->where('pid','0')->orderBy('orders','asc')->get();
 		if(count($menus)>0){
 			foreach ($menus as $k=>$v){
@@ -30,7 +30,7 @@ class Menus extends Model
 	public static function render_sub_menu_admin($id){
 		$list_menu='';
 		$currentUrl = url()->current();
-		$link_riderect='https://hoabinhbooking.com/admin/';
+		$link_riderect='https://hoabinhbooking.test/admin/';
 		$menus=DB::table('menus_admin')->where('status','A')->where('pid',$id)->orderBy('orders','asc')->get();
 		if(count($menus)>0){
 			$list_menu.='<span class="btn-toggle"><i class="fa fa-angle-left pull-right"></i></span><ul>';
@@ -59,7 +59,7 @@ class Menus extends Model
 								$rel3=$c3->rel==1?' rel="dofollow" ':' rel="nofollow" ';
 								$str_link_3='';
 								if($c3->redirect!=''){ $str_link_3=$c3->redirect; }
-								else{ $str_link_3='https://hoabinhbooking.com/k/'.$c3->slug; }
+								else{ $str_link_3='https://hoabinhbooking.test/k/'.$c3->slug; }
 								
 								$sub_menu_c3.='<li><a '.$rel3.' href="'.$str_link_3.'">'.$c3->title.'</a></li>';
 							}	
@@ -68,7 +68,7 @@ class Menus extends Model
 						
 						$rel2=$cv->rel==1?' rel="dofollow" ':' rel="nofollow" ';
 						$str_link_3='';
-						if($cv->redirect!=''){ $str_link_3=$cv->redirect; }else{ $str_link_3='https://hoabinhbooking.com/k/'.$cv->slug; }
+						if($cv->redirect!=''){ $str_link_3=$cv->redirect; }else{ $str_link_3='https://hoabinhbooking.test/k/'.$cv->slug; }
 						
 						if($sub_menu_c3!=''){
 							$sub_menu.='<li><a '.$rel2.' href="'.$str_link_3.'">'.$cv->title.' <span class="fa fa-caret-right m-555"></span></a>'.$sub_menu_c3.'</li>';
@@ -81,7 +81,7 @@ class Menus extends Model
 				}
 				
 				
-				if($v->redirect!=''){ $str_link_0=$v->redirect; }else{ $str_link_0='https://hoabinhbooking.com/k/'.$v->slug; }
+				if($v->redirect!=''){ $str_link_0=$v->redirect; }else{ $str_link_0='https://hoabinhbooking.test/k/'.$v->slug; }
 				$rel=$v->rel==1?' rel="dofollow" ':' rel="nofollow" ';
 				if($sub_menu!=''){
 					$menu_top.='<li><a '.$rel.' href="'.$str_link_0.'">'.$v->title.' <span class="fa fa-caret-down m-0"></span></a>'.$sub_menu.'</li>';

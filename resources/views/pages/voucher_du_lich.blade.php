@@ -40,7 +40,7 @@
 .wap_dk_tk_moi .bookcore-form{ width:100%; }
 .wap_dk_tk_moi .color-white{ color:white; }
 .login-header{ position: relative;width:100%;height:auto; }
-.login-head{ background: url(https://hoabinhbooking.com/public/images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
+.login-head{ background: url(https://hoabinhbooking.test//images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
 
 </style>
 
@@ -48,7 +48,7 @@
 <div class="container">
 <div class="row bgwhite">
 <div class="col-md-6 col-sm-12">
-<form method="post" action="https://hoabinhbooking.com/public/vi/partner/login" class="bookcore-form">
+<form method="post" action="https://hoabinhbooking.test/public/vi/partner/login" class="bookcore-form">
 <input type="hidden" name="_token" value="VUTq80ly619udq46mPK9ECtuj4poqntyOj782QAm">
 <div class="login-header">
 <div class="login-head">
@@ -93,7 +93,7 @@
 <div class="col-md-6 col-sm-12" style="background-color: #3466ff;">
 <div style="padding:40px 50px;">
 <div class="row">
-<form method="post" action="https://hoabinhbooking.com/public/vi/dang-ky-partnership" class="bookcore-form">
+<form method="post" action="https://hoabinhbooking.test/public/vi/dang-ky-partnership" class="bookcore-form">
 <input type="hidden" name="_token" value="VUTq80ly619udq46mPK9ECtuj4poqntyOj782QAm">
 <div class="form">
 <div class="header">
@@ -136,7 +136,7 @@
 <div class="row_fsv">
 <h2>Tự tin đăng ký chỗ nghỉ của bạn trên </h2><h2>Hòa Bình Booking!</h2>
 <p>Từ căn hộ cho đến biệt thự và các loại chỗ nghỉ khác đều có thể được đăng miễn phí. Chỗ nghỉ của bạn cũng được giảm giá cho các sản phẩm và dịch vụ giúp tiết kiệm thời gian cho Quý vị và cải thiện trải nghiệm cho khách.</p>
-<p><a class="btn btn-primary" style="font-size: 22px;font-weight: normal;" href="https://hoabinhbooking.com/vi/partnership/register">Đăng ký ngay</a></p>
+<p><a class="btn btn-primary" style="font-size: 22px;font-weight: normal;" href="https://hoabinhbooking.test/vi/partnership/register">Đăng ký ngay</a></p>
 </div>
 <div class="row_fsv">
 <img alt="" src="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_slide_homestay.jpg" style="width: 96%;float: right;">
@@ -304,7 +304,7 @@ Quý vị sẽ được biết cách thức hoạt động của trang chúng t�
 <li>
 <div class="boxbenefit last">
 <div class="benefitimg">
-<img src="https://hoabinhbooking.com/public/icon/sale.png">
+<img src="https://hoabinhbooking.test/icon/sale.png">
 </div>
 <div class="benefithead">
 <span>Giảm giá đặc biệt</span>
@@ -326,7 +326,7 @@ Quý vị sẽ được biết cách thức hoạt động của trang chúng t�
 <img alt="" src="https://storage.googleapis.com/tripi-assets/mytour/banner/img_partnership_with_you.jpg" style="width:100%;height:auto;">
 <div style="float:left;bottom: 80px;left: 50px;position: absolute;">
 <div style="color:#fff;font-size: 42px;width: 668px;margin-bottom: 40px;">Hãy để Hòa Bình Booking đồng hành cùng bạn!</div>
-<p><a class="btn btn-primary" style="font-size: 22px;font-weight: normal;" href="https://hoabinhbooking.com/vi/partnership/register">Đăng ký ngay</a></p>
+<p><a class="btn btn-primary" style="font-size: 22px;font-weight: normal;" href="https://hoabinhbooking.test/vi/partnership/register">Đăng ký ngay</a></p>
 </div>
 </div>
 </div>
