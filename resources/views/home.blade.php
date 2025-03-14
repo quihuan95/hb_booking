@@ -446,7 +446,7 @@
 
 
 <div class="h35"></div>
-<div class="bravo_footer" style="background: url(https://hoabinhbooking.test//images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
+<div class="bravo_footer" style="background: url(https://hoabinhbooking.test/images/bgfoot-6991.jpeg) no-repeat top center;padding: 5px 0px 0px 0px;background-size: 100% 100% !important;">
 	<div class="h35"></div>
 		<div class="main-footer">
 		<div class="container">
@@ -458,7 +458,7 @@
 			<div style="width:100%;clear:both;color:#fff;padding: 10px 0;">
 			<i>Thương hiệu của Hoabinh-Group.com</i>
 			</div>
-			<div style="width:100%;clear:both;color:#fff;line-height:30px;">
+			<div style="width:100%;clear:both;color:#fff;line-height
 			ĐKKD: 0102720141<br>
 			Ngày cấp: 14/04/2008 | Nơi cấp: Sở kế hoạch và đầu tư TP. Hà Nội <br>
 			</div>
@@ -480,7 +480,7 @@
 			<p style="margin-top:40px;"><b>Bạn cần trợ giúp? Hãy gọi ngay:</b></p>
 			<p>
 				<a href="tel:0918640988">
-				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.test//images/calling.gif">
+				<img style="width: 40px;background: transparent;float: left;" alt="hotline" src="https://hoabinhbooking.test/images/calling.gif">
 				<span style="color: #fff;font-size: 20px;padding-top: 5px;padding-left: 10px;display: block;float: left;">
 					0918 640 988
 				</span>
@@ -509,7 +509,7 @@
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách đổi trả</a></p>
 			<p><a rel="nofolow" href="/"><i class="fa fa-caret-right" aria-hidden="true"></i> Chính sách bảo mật</a></p>
 			<p>
-			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.test//images/congthuong-7841.png">
+			<img style="width:199px;margin-top: 20px;" alt="cong thuong" src="https://hoabinhbooking.test/images/congthuong-7841.png">
 			</p>
 			
 			</div>

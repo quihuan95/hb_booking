@@ -41,7 +41,7 @@
 .wap_dk_tk_moi .bookcore-form{ width:100%; }
 .wap_dk_tk_moi .color-white{ color:white; }
 .login-header{ position: relative;width:100%;height:auto; }
-.login-head{ background: url(https://hoabinhbooking.test//images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
+.login-head{ background: url(https://hoabinhbooking.test/images/bg_blue.png) no-repeat top left;width: 292px;height: 110px;float: left;position: absolute;left: -23px;top: 25px; }
 
 </style>
 <div class="wap_dk_tk_moi">
