@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="vi" class="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="https://hoabinhbooking.com"/>	
+	<title>Home Hotel</title>
+	<link href="https://hoabinhbooking.com/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="https://hoabinhbooking.com/css/app.css?v=1.2" rel="stylesheet">
+	
+	<script>
+		var bookingCore = {
+			booking_decimals:0,
+			thousand_separator:'.',
+			decimal_separator:',',
+			currency_position:'left',
+			currency_symbol:'$',
+			date_format:'DD/MM/YYYY',
+			map_provider:'gmap',
+			map_gmap_key:'',
+			currentUser:0
+		};
+	</script>
+	<!-- Styles -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
+	<link href="https://hoabinhbooking.com/public/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		/*-------------- FORM SEARCH ---------------*/
+		.bravo_wrap .bravo_form .form-content{ padding: 5px 0 10px 55px; }
+		.bravo_wrap .bravo_form .smart-search .bravo-autocomplete, .bravo_wrap .bravo_form .input-search .bravo-autocomplete{ margin-top: 10px; }
+		.t-check-in{ border-width: 0; }
+		.t-check-in::before{ content: "Ngày đến";color: #5e6d77;padding: 0 15px; }
+		.t-check-out{ border-width: 0; }
+		.t-check-out::before{ content:"Ngày về";color: #5e6d77;padding: 0 15px; }
+		.t-datepicker{ color: #5191FA;  }
+		.t-check-in .t-date-info-title, .t-check-out .t-date-info-title{ opacity:9!important;font-size: 15px;font-family: inherit; }
+		.sophongsokhach{ color: #5191FA;padding-top: 4px;font-size: 15px;position: relative;float: left;z-index: 99999; }
+		.spskpopup{ display:none; position: absolute;float: left;width: 300px;height: auto;min-height: 200px;background-color: #fff;z-index: 9999;top: 47px;left: -15px;border-radius: 5px;box-shadow: 0px 4px 6px rgb(0 0 0 / 10%), 0px 6px 14px rgb(0 0 0 / 20%);padding:15px; }
+		.spskpopup td{ vertical-align: middle;padding:10px 0px; }
+		.spskpopup tr{ border-bottom: solid 1px #EDF2F7; }
+		input.btnsplus{ width: 35px;height: 35px;border: none;border-radius: 100%;text-align: center;background: #E2E8F0; }
+	
+	</style>
+</head>
+<body class="frontend-page ">
+	
+	<div class="bravo_wrap">
+
+
+
+
+					<div class="page-template-content">
+			<div class="bravo-form-search-hotel" style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('https://hoabinhbooking.com/uploads/0000/17/2020/09/30/download-1.png') !important">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="g-form-control">
+
+<form action="https://hoabinhbooking.com/vi/hotel/search" class="form bravo_form" method="get">
+	<div class="g-field-search">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="form-group">
+					<i class="field-icon fa icofont-map"></i>
+					<div class="form-content">
+						<label>Điểm đến</label>
+												<div class="smart-search">
+							<input type="text" name="searchtext"  autocomplete="off" class="smart-search-location parent_text form-control"  placeholder="Nhập điểm du lịch hoặc tên khách sạn" value="" data-onLoad="Xin chờ..."
+								   data-default="[{&quot;id&quot;:9,&quot;title&quot;:&quot; C\u00e1t B\u00e0 - H\u1ea3i Ph\u00f2ng&quot;},{&quot;id&quot;:10,&quot;title&quot;:&quot; H\u1ea1 Long - Qu\u1ea3ng Ninh&quot;},{&quot;id&quot;:11,&quot;title&quot;:&quot; H\u00e0 N\u1ed9i&quot;},{&quot;id&quot;:12,&quot;title&quot;:&quot; Mai Ch\u00e2u - H\u00f2a B\u00ecnh&quot;},{&quot;id&quot;:13,&quot;title&quot;:&quot; M\u1ed9c Ch\u00e2u - S\u01a1n La&quot;},{&quot;id&quot;:14,&quot;title&quot;:&quot; Ninh B\u00ecnh&quot;},{&quot;id&quot;:15,&quot;title&quot;:&quot; Sapa - L\u00e0o Cai&quot;},{&quot;id&quot;:16,&quot;title&quot;:&quot; V\u0129nh Ph\u00fac&quot;}]">
+							<input type="hidden" class="child_id" name="location_id" value="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="padding-left: 0px;padding-right: 0px;">
+				<div class="t-datepicker" style="border-left: solid 1px #5191FA;border-right: solid 1px #5191FA;padding-top: 5px;margin: 5px 0;">
+				  <div class="t-check-in"></div>
+				  <div class="t-check-out"></div>
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+			<div class="form-content" style="padding: 5px 0 10px 0px;">
+				<label>Số phòng, số khách</label>
+				<input type="hidden" name="phong" id="hdphong" value="1"/>
+				<input type="hidden" name="adult" id="hdadult" value="2"/>
+				<input type="hidden" name="child" id="hdchild" value="0"/>
+				
+				<div class="sophongsokhach" id="sophongsokhach">
+				<div id="wapsophong"><span id="phong" class="phong">1</span> phòng, <span id="nguoilon" class="nguoilon">2</span> người lớn, <span id="treem" class="treem">0</span> trẻ em</div>
+				<div class="spskpopup">
+				<table>
+				<tr>
+				<td style="text-align:left;">Phòng</td>
+				<td class="tdd1"><input type="button" id="subphong" name="subphong" class="btnsplus" value="-" /></td>
+				<td class="tdd1"><span class="phong">1</span></td>
+				<td class="tdd1"><input type="button" id="plusphong" name="plusphong" class="btnsplus" value="+" /></td>
+				</tr>
+				<tr>
+				<td style="text-align:left;">Người lớn</td>
+				<td class="tdd1"><input type="button" id="subadult" name="subadult" class="btnsplus" value="-" /></td>
+				<td class="tdd1"><span class="nguoilon">2</span></td>
+				<td class="tdd1"><input type="button" id="plusadult" name="plusadult" class="btnsplus" value="+" /></td>
+				</tr>
+				<tr>
+				<td style="text-align:left;">Trẻ em</td>
+				<td class="tdd1"><input type="button" id="subchildren" name="subchildren" class="btnsplus" value="-" /></td>
+				<td class="tdd1"><span class="treem">0</span></td>
+				<td class="tdd1"><input type="button" id="pluschildren" name="pluschildren" class="btnsplus" value="+" /></td>
+				</tr>
+				</table>
+				
+				</div>
+				</div>
+			</div>
+			</div>
+
+
+		</div>
+	</div>
+	<div class="g-button-submit">
+		<button class="btn btn-primary btn-search" type="submit">Tìm kiếm</button>
+	</div>
+</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+
+<script src="https://hoabinhbooking.com/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://hoabinhbooking.com/js/home.js?_ver=1.4.0"></script>
+
+<script src="https://hoabinhbooking.com/public/libs/calendar/js/t-datepicker.min.js"></script>
+<script>
+ $(document).ready(function(){
+	// Call global the function
+	$('.t-datepicker').tDatePicker({
+	  // options here
+	});
+  });
+</script>
+</body>
+</html>
