@@ -42,6 +42,7 @@
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link href="{{ asset('libs/calendar/css/t-datepicker.min.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('libs/calendar/css/t-datepicker-blue.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{asset('css/tailwind-output.css')}}" rel="stylesheet">
 	<style type="text/css">
 		.jss5 { object-fit: none; }
 		.jss5 video { object-fit: cover; }

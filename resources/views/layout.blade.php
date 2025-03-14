@@ -12,6 +12,7 @@
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
 	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
+	<link href="{{asset('css/tailwind-output.css')}}" rel="stylesheet">
 	<style type="text/css">
 		.jss5 { object-fit: none; }
 		.jss5 video { object-fit: cover; }
@@ -149,7 +150,7 @@
 		}
 		
 	</script>
-	
+
 </head>
 <body>
 	<div onclick="fnHidePhong()" class="room_over" id="room_over"></div>
@@ -173,16 +174,7 @@
 									?>
 								</ul>
 							</nav>
-							<!--
-							<ul>
-								<li><a href="/">Trang chủ</a></li>
-								<li><a href="https://hoabinhbooking.test/location/vung-tau">Khách sạn</a></li>
-								<li><a href="/">Tours</a></li>
-								<li><a href="/">Cẩm nang</a></li>
-								<li><a href="/">Liên hệ</a></li>
-							</ul>	-->
 						</div>
-						
 						<div class="ul_right">
 							<ul>
 								<li>
