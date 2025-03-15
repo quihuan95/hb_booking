@@ -12,7 +12,7 @@
 	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker.min.css" rel="stylesheet" type="text/css">
 	<link href="https://hoabinhbooking.test/libs/calendar/css/t-datepicker-blue.css" rel="stylesheet" type="text/css">
-	<link href="{{asset('css/tailwind-output.css')}}" rel="stylesheet">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 	<style type="text/css">
 		.jss5 { object-fit: none; }
 		.jss5 video { object-fit: cover; }
@@ -288,7 +288,7 @@
 		<div class="container context" style="padding: 20px 15px!important;color: #fff;">
 			<div class="row">
 				<div class="col-md-12">
-					Copyright © 2021 by Hoabinh Booking - HoabinhBooking.com
+					Copyright © 2021 by Hoabinh Booking - hoabinhbooking.test
 					<div class="f-visa">
 						
 					</div>

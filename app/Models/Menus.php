@@ -60,8 +60,7 @@ class Menus extends Model
 								$str_link_3='';
 								if($c3->redirect!=''){ $str_link_3=$c3->redirect; }
 								else{ $str_link_3='https://hoabinhbooking.test/k/'.$c3->slug; }
-								
-								$sub_menu_c3.='<li><a '.$rel3.' href="'.$str_link_3.'">'.$c3->title.'</a></li>';
+								$sub_menu_c3 .= '<li><a ' . $rel3 . ' href="' . $str_link_3 . '">' . __('menu.' . $c3->slug) . '</a></li>';
 							}	
 							$sub_menu_c3.='</ul>';
 						}
@@ -71,9 +70,9 @@ class Menus extends Model
 						if($cv->redirect!=''){ $str_link_3=$cv->redirect; }else{ $str_link_3='https://hoabinhbooking.test/k/'.$cv->slug; }
 						
 						if($sub_menu_c3!=''){
-							$sub_menu.='<li><a '.$rel2.' href="'.$str_link_3.'">'.$cv->title.' <span class="fa fa-caret-right m-555"></span></a>'.$sub_menu_c3.'</li>';
+							$sub_menu.='<li><a '.$rel2.' href="'.$str_link_3.'">'.__('menu.' . $cv->slug) .' <span class="fa fa-caret-right m-555"></span></a>'.$sub_menu_c3.'</li>';
 						}else{
-							$sub_menu.='<li><a '.$rel2.' href="'.$str_link_3.'">'.$cv->title.'</a></li>';	
+							$sub_menu.='<li><a '.$rel2.' href="'.$str_link_3.'">'.__('menu.' . $cv->slug).'</a></li>';	
 						}
 						
 					}
@@ -84,9 +83,9 @@ class Menus extends Model
 				if($v->redirect!=''){ $str_link_0=$v->redirect; }else{ $str_link_0='https://hoabinhbooking.test/k/'.$v->slug; }
 				$rel=$v->rel==1?' rel="dofollow" ':' rel="nofollow" ';
 				if($sub_menu!=''){
-					$menu_top.='<li><a '.$rel.' href="'.$str_link_0.'">'.$v->title.' <span class="fa fa-caret-down m-0"></span></a>'.$sub_menu.'</li>';
+					$menu_top.='<li><a '.$rel.' href="'.$str_link_0.'">'.__('menu.' . $v->slug) .' <span class="fa fa-caret-down m-0"></span></a>'.$sub_menu.'</li>';
 				}else{
-					$menu_top.='<li><a '.$rel.' href="'.$str_link_0.'">'.$v->title.'</a></li>';
+					$menu_top.='<li><a '.$rel.' href="'.$str_link_0.'">'.__('menu.' . $v->slug) .'</a></li>';
 				}
 			}
 		}

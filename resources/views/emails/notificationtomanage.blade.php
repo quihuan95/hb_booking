@@ -4,11 +4,11 @@
 <div style="border-bottom:solid 2px #04245d;width:100%;clear:both;">
 <div style="float:left;">
 <p style="text-align:left;margin:0px;padding:0px;color:#04245d;">0913 311 911</p>
-<p style="text-align:left;margin:0px;padding:0px;color:#04245d;">www.hoabinhbooking.com</p>
+<p style="text-align:left;margin:0px;padding:0px;color:#04245d;">www.hoabinhbooking.test</p>
 </div>
 <div style="float:right;">
 <p style="text-align:right;margin:0px;padding:0px;">
-<img alt="logo hoabinhbooking.com" src="asset('frontend/css/images/logohoabinhbooking.png')" style="width:180px;"/>
+<img alt="logo hoabinhbooking.test" src="asset('frontend/css/images/logohoabinhbooking.png')" style="width:180px;"/>
 </p>
 </div>
 <div style="width:100%;height:1px;clear:both;"></div>

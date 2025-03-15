@@ -271,7 +271,7 @@ class HomeController extends Controller
 		$toEmail="thao.mai@hoabinhtourist.com";
 		$link=route('cmscpanel.reviewHotel',array($id_hotel)).'?tab=1';
 		Mail::send('emails.notificationtomanage', array('email'=>$toEmail,'link'=>$link,'id_hotel'=>$id_hotel), function($message) use ($toEmail){
-			$message->to($toEmail, 'HoabinhBooking.com')->subject('[HOABINHBOOKNG.COM] Xác nhận địa chỉ email #'.rand());
+			$message->to($toEmail, 'hoabinhbooking.test')->subject('[HOABINHBOOKNG.COM] Xác nhận địa chỉ email #'.rand());
 		});
 		
 		Session::put('message2','Gửi yêu cầu thành công');
@@ -681,7 +681,7 @@ class HomeController extends Controller
 				$toEmail=trim($request->txtEmail);
 				
 				Mail::send('Contact::emails.notification_partner', array('email'=>$toEmail, 'fullname'=>$partner_members["fullname"], 'token'=>$partner_members["token"]), function($message) use ($toEmail){
-					$message->to($toEmail, 'HoabinhBooking.com')->cc('thao.mai@hoabinhtourist.com')->subject('[HOABINHBOOKNG.COM] Xác nhận địa chỉ email');
+					$message->to($toEmail, 'hoabinhbooking.test')->cc('thao.mai@hoabinhtourist.com')->subject('[HOABINHBOOKNG.COM] Xác nhận địa chỉ email');
 				});
 				
 				Session::put('message','InsertSuccefully');
