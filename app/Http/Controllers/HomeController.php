@@ -130,6 +130,7 @@ class HomeController extends Controller
 	public function khach_san_details($slug){
 		$hotel_details=DB::table('bravo_hotels')->where('slug',$slug)->first();
 		$bravo_hotel_room_list_calendars=DB::table('bravo_hotel_room_list_calendars')->where('hotel_id',$hotel_details->id)->orderBy("id","asc")->get();
+		dd($bravo_hotel_room_list_calendars);
 		$current_url=url()->current();
 		return view('pages.khachsandetail',compact('hotel_details','bravo_hotel_room_list_calendars','current_url'));
 	}
@@ -241,7 +242,7 @@ class HomeController extends Controller
 		$data['children']=$request->children;
 		$data['user_id']=Session::get('partner_id');
 		$data['created_at']=Carbon::now();
-		$data['update_at']=Carbon::now();
+		$data['updated_at']=Carbon::now();
 		$data['status']='A';
 		
 		$id = DB::table('bravo_hotel_room_list_calendars')->insertGetId($data);
@@ -675,8 +676,8 @@ class HomeController extends Controller
 				$partner_members["password_show"]='';
 				$partner_members["token"]=$request->_token;
 				$partner_members["status"]='N';
-				$partner_members["create_at"]=Carbon::now();
-				$partner_members["update_at"]=Carbon::now();
+				$partner_members["created_at"]=Carbon::now();
+				$partner_members["updated_at"]=Carbon::now();
 				DB::table('bravo_partner_members')->insert($partner_members);
 				$toEmail=trim($request->txtEmail);
 				
